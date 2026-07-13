@@ -1,0 +1,6 @@
+@ApiColmadoFinal_HostAddress = http://localhost:5237
+
+GET {{ApiColmadoFinal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
