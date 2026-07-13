@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="ApiColmadoFinal/ApiColmadoFinal.csproj" />
+  <Project Path="Application/Application.csproj" Id="c0e22269-a3ae-4098-a172-b006ce31eb66" />
+  <Project Path="Domain/Domain.csproj" Id="c16570d3-a013-480d-ab02-bac5b949bf5f" />
+  <Project Path="Infraestructure/Infraestructure.csproj" Id="f6fb1476-b26b-4d26-a803-d8fcf26f26bc" />
 </Solution>
