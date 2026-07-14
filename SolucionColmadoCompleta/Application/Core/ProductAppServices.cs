@@ -37,7 +37,7 @@ namespace Application.Core
                     Stock = dto.Stock,
                     CategoryId = dto.CategoryId
                 };
-                return NewProduct;
+                return _repository.Add(NewProduct);
             }
             catch (AlreadyExistsException e)
             {
