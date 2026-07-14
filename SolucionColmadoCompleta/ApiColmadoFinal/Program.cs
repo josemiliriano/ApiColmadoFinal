@@ -14,6 +14,9 @@ builder.Services.AddScoped(typeof(GeneralRepository<CDCategory>));
 builder.Services.AddScoped<ICategoryAppService, CategoryAppService>();
 builder.Services.AddScoped(typeof(GeneralRepository<CDProduct>));
 builder.Services.AddScoped<IProductAppServices, ProductAppServices>();
+builder.Services.AddScoped(typeof(GeneralRepository<CDProvider>));
+builder.Services.AddScoped<IProviderAppService, ProviderAppService>();
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
