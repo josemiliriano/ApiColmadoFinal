@@ -16,7 +16,8 @@ builder.Services.AddScoped(typeof(GeneralRepository<CDProduct>));
 builder.Services.AddScoped<IProductAppServices, ProductAppServices>();
 builder.Services.AddScoped(typeof(GeneralRepository<CDProvider>));
 builder.Services.AddScoped<IProviderAppService, ProviderAppService>();
-
+builder.Services.AddScoped(typeof(GeneralRepository<CDInventoryMovement>));
+builder.Services.AddScoped<IInventoryMovementAppService, InventoryMovementAppService>();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
